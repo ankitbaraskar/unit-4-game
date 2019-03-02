@@ -12,5 +12,65 @@
   header{
     font-family: 'Playfair Display', serif;
     font-size: 70px;
-    color: white;
+    padding: 0px 10px 10px 10px;    
+    opacity: 0.60;
+  }
+  section{
+    font-size: 20px;
+    padding: 20px 10px 10px 10px;
+  }
+  img{
+    display: inline-block;
+    float: left;
+    height: 80px;
+    width: 100px;
+    border: 1px solid white;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .main-block{
+    opacity: 0.60;
+    color: rgb(9, 9, 155);
+    display: block;
+    background: white;
+    margin: 10px;
+    width: 700px;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  #random-number{
+    height: 125px;
+    width: 250px;
+    background: white;
+    opacity: 0.60;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+  }
+  #wins-losses{
+    height: 125px;
+    width: 200px;
+    background: white;
+    opacity: 0.60;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    color:  rgb(9, 9, 155);
+    line-height: 40px;
+    padding-left: 10px;
+  }
+
+  #total-score{
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 35px;
+  }
+  #score-span{
+    font-weight: bolder;
   }

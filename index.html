@@ -10,16 +10,55 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
 </head>
 <body>
-<header>
+
+<header class="main-block">
     <h1>Crystal Collector!</h1>
 </header>
-<section>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt delectus voluptas aperiam voluptatibus, exercitationem alias tempore blanditiis repellat vitae eveniet et aspernatur magnam sit praesentium iste optio facere numquam debitis?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nesciunt officiis quis nulla iure veritatis. Nihil voluptate aliquid tempora sunt odio unde similique facere deserunt. Tenetur ut exercitationem a accusantium.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reiciendis, vel dolorum unde quidem molestias iure dolorem modi esse deserunt error, eius expedita excepturi harum. Vel accusamus esse tempora excepturi.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iusto commodi suscipit dignissimos consequatur? Ipsum, eius ullam nisi atque perspiciatis perferendis cumque earum! Iusto delectus ut perspiciatis aperiam, voluptatum voluptate.
 
+<section class="main-block">
+You will be given a random number at the start of the game.
+<br><br>
+There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+<br><br>
+You win the game by matching you total score to random number, you lose the game if your total score goes above the random number.
+<br><br>
+The value of each crystal is hidden from you until you click on it.
+<br><br>
+Each time when the game starts, the game will change the values of each crystal.
+<br><br>
 </section>
+
+<div class="clearfix">
+    <div id="random-number">
+    </div>
+
+    <div id="wins-losses">
+        <ul>
+            <li>Wins:<span></span></li>
+            <li>Losses:<span></span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="clearfix">
+    <div id="red-crystal">
+        <img src="assets/images/red.jpg" alt="red">
+    </div>
+    <div id="blue-crystal">
+        <img src="assets/images/blue.jpg" alt="blue">
+    </div>
+    <div id="yellow-crystal">
+        <img src="assets/images/yellow.jpg" alt="yellow">
+    </div>
+    <div id="green-crystal">
+        <img src="assets/images/green.jpg" alt="green">
+    </div>
+</div>
+
+<div class="main-block" id="total-score">
+    <span id="score-span">120</span> is your total score!
+</div>
+
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>
