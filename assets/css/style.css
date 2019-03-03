@@ -50,6 +50,11 @@
     margin-left: 10px;
     display: inline-block;
     float: left;
+    color: rgb(9, 9, 155);
+    text-align: center;
+    line-height: 100px;
+    font-size: 35px;
+    font-weight: bolder;
   }
   #wins-losses{
     height: 125px;

@@ -20,7 +20,7 @@ You will be given a random number at the start of the game.
 <br><br>
 There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
 <br><br>
-You win the game by matching you total score to random number, you lose the game if your total score goes above the random number.
+You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
 <br><br>
 The value of each crystal is hidden from you until you click on it.
 <br><br>
@@ -34,8 +34,8 @@ Each time when the game starts, the game will change the values of each crystal.
 
     <div id="wins-losses">
         <ul>
-            <li>Wins:<span></span></li>
-            <li>Losses:<span></span></li>
+            <li>Wins: <span id="win-span"></span></li>
+            <li>Losses: <span id="loss-span"></span></li>
         </ul>
     </div>
 </div>
@@ -56,9 +56,10 @@ Each time when the game starts, the game will change the values of each crystal.
 </div>
 
 <div class="main-block" id="total-score">
-    <span id="score-span">120</span> is your total score!
+    <span id="score-span"></span> is your total score!
 </div>
 
-    <script src="assets/javascript/game.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>
